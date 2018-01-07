@@ -83,5 +83,11 @@
 		  margin-left: 20px;
 		  margin-bottom: 10px;
     	}
+		    	/* Extra small devices (767px and down) */
+		@media (max-width: 767px) {
+		    .row.vertical-align {
+		        display: block; /* Turn off the flexible box layout */
+		    }
+}
 
 	</style>
