@@ -38,7 +38,8 @@
 		}
 
 		.contentmargin{
-			margin-top:8%;
+			margin-top:100px;
+			margin-bottom: 20px;
 
 		}
 		
@@ -78,4 +79,9 @@
       display:flex;
       align-items:center;
     }
+    	.portraitpic{
+		  margin-left: 20px;
+		  margin-bottom: 10px;
+    	}
+
 	</style>
