@@ -13,6 +13,10 @@
 	
 		.fsze{
 			font-size: larger
+			
+		}
+		.spacing{
+			line-height:1.7em;
 		}
 		.bkgd2{
 			background-color: #303030;  /* dark grey*/
