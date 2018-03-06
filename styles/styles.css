@@ -40,6 +40,7 @@
 
 		.contentmargin{
 			margin-top:70px;
+			margin-bottom: 70px;
 		}
 		
 		.panel{
@@ -61,8 +62,10 @@
 		}
 		.adamina{
 		 	font-family: 'Adamina', serif;
+		 	font-size: large;
+		 	line-height: 180%;
 		 	} 
-		 	
+
 		.greyfnt
 		{
 		color:#BEBEBE; /*X11 grey*/
