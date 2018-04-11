@@ -1,5 +1,8 @@
 <style type="text/css" media="screen">
-
+		a:hover {
+  		text-decoration: none;
+  		color: blue;
+		}
 		.navbar{
 			background-color:rgba(0,0,0,1);  /*transparent black */
 			padding-top: 0.5%;
