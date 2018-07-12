@@ -1,4 +1,4 @@
-<style type="text/css" media="screen">
+
 		a:hover {
   		text-decoration: none;
   		color: blue;
@@ -10,48 +10,48 @@
 			font-family:'Lato', sans-serif;
 			color:white !important;
 		}
-		
+
 		.bkgd{background-color: #F5F5F5	;
 				}   /*whitefox grey*/
-	
+
 		.fsze{
 			font-size: larger
-			
+
 		}
 		.bkgd2{
 			background-color: #303030;  /* dark grey*/
-				
+
 		}
 		.whitefnt{
 			color:white;
 		}
 		.bkgd3{
 			background-color: black;
-				
+
 
 		}
 		.container-custom1
 		{
 			padding-top:6%;
-			padding-bottom:6%; 
+			padding-bottom:6%;
 		}
 		.container-custom2
 		{
 			padding-top:3%;
-			padding-bottom:3%; 
+			padding-bottom:3%;
 		}
 
 		.contentmargin{
 			margin-top:70px;
 			margin-bottom: 70px;
 		}
-		
+
 		.panel{
 			box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
-			font-family:'Adamina',serif;	
+			font-family:'Adamina',serif;
 		}
 
-		
+
 		.fa-linkedin {
 		  background: #007bb5;
 		  color: white;
@@ -67,7 +67,7 @@
 		 	font-family: 'Adamina', serif;
 		 	font-size: large;
 		 	line-height: 180%;
-		 	} 
+		 	}
 
 		.greyfnt
 		{
@@ -95,7 +95,4 @@
 		    .row.vertical-align {
 		        display: block; /* Turn off the flexible box layout */
 		    }
-
-	
-
-	</style>
+		}
