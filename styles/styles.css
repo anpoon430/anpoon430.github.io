@@ -96,3 +96,11 @@
 		        display: block; /* Turn off the flexible box layout */
 		    }
 		}
+
+		.construction{
+			height: 100vh;
+		}
+	.anchor {
+
+	padding-top: 100px;
+}
