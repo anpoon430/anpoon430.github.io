@@ -2,3 +2,23 @@
 	--base: #16c79e;
 	--accent: #FF8D47;
 }
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+
+header{
+
+}
+
