@@ -38,9 +38,6 @@ img{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background:url(../images/landing_background.svg) bottom no-repeat fixed #cbeaed;
-		height: 100vh;
-		width: auto;
 		-webkit-background-size: auto 70vh;
 		-moz-background-size: auto 70vh;
 		-o-background-size: auto 70vh;
@@ -50,6 +47,9 @@ img{
 		-o-background-size: cover;
 			background-size: cover;
 		color: var(--accent);
+		background:url(../images/landing_background.svg) bottom no-repeat fixed #cbeaed;
+		height: 100vh;
+		width: auto;
 	}
 }
 header{
@@ -57,11 +57,6 @@ header{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		background:url(../images/landing_background.svg) bottom no-repeat #cbeaed;
-		background-attachment: inherit;
-		height: 100vh;
-		width: auto;
-		color: var(--accent);
 		-webkit-background-size: auto 70vh;
 	-moz-background-size: auto 70vh;
 	-o-background-size: auto 70vh;
@@ -70,6 +65,11 @@ header{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 		background-size: cover;
+		background:url(../images/landing_background.svg) bottom no-repeat #cbeaed;
+		background-attachment: inherit;
+		height: 100vh;
+		width: auto;
+		color: var(--accent);
 }
 
 
