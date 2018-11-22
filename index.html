@@ -1,106 +1,277 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Adamina" rel="stylesheet">
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles/styles.css">
-
-  <title>Andy Poon</title>
-
-</head>
-
-<body class="bkgd">
-
-
-  <div class="container-fluid">
-    <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
-      <div class="row">
-        <div class="col-md-2 "></div>
-        <div class="col-md-8 ">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <span class="navbar-text fsze">
-              ANDY POON
-            </span>
-          </div>
-
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav  pull-right">
-              <li class="active">
-                <a href="#about">ABOUT</a>
-              </li>
-              <li>
-                <a href="#portfolio">PORTFOLIO</a>
-              </li>
-              <li>
-                <a href="#contact">CONTACT</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2 "></div>
-        </div>
-      </div>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <script src="./scripts/app.js" defer></script>
+    <title>Andy Poon</title>
+  </head>
+  <body>
+    <nav class='active'>
+      <ul>
+        <li><a href="#about"> ABOUT </a></li>
+        <li><a href="#skills"> SKILLS </a></li>
+        <li><a href="#projects"> PROJECTS </a></li>
+        <li><a href="#contact"> CONTACT </a></li>
+      </ul>
     </nav>
+    <header>
+      <h1 class="header--title-centered">Hi, I'm Andy Poon.</h1>
+      <h2 class="header--subtitle-centered">Software Developer.</h2>
+      <cite
+        >Drawing designed by
+        <a href="https://www.vecteezy.com">vecteezy</a></cite
+      >
+    </header>
 
-    <div class="row contentmargin">
-      <div class="col-md-3"></div>
-      <div class="col-md-6 adamina fsze">
-        <h1 id = 'about' class = 'anchor'>About</h1>
-        <h2 class ='construction'>Under construction</h2>
-        <h1 id = 'portfolio' class = 'anchor'>Portfilio</span></h1>
-        <h2 class ='construction'>Under construction</h2>
-        <h1 id = 'contact' class= 'anchor' >Contact</h1>
-        <h2 class ='construction'>Under construction</h2>
+    <main>
+      <section class="section--about" id ="about">
+        <h2>ABOUT</h2>
+        <div class="section--container">
+          <blockquote class="section--about-content">
+            After my studies in Civil Engineering, I reaffirmed my interests
+            were in designing creative solutions to solve problems. <br><br>Studying
+            Civil Engineering taught me to approach problem solving in a
+            systematic way, but I realized that a career that was less
+            restricted by codes and standards was more important to me. <br><br>So I learned web development in JavaScript to be able to build web applications and solve problems.
+            Outside of coding, I am a theme park enthusiast and enjoy discovering themed experiences. I am also interested in Tech in Transportation.
+          </blockquote>
         </div>
-      <div class="col-md-3"></div>
-    </div>
-
-    <footer class='lato'>
-      <div class="row bkgd2 container-custom1">
-        <div class="col-xs-0 col-md-2"></div>
-        <div class="col-xs-6 col-md-4 text-center">
-          <h3 class="whitefnt">About this page</h3>
-          <p class="greyfnt fsze">Coded by
-            <a class="greyfnt" target="blank" href="https://github.com/anpoon430">Andy Poon</a>
-          </p>
-        </div>
-        <div class="col-xs-6 col-md-4 text-center">
-          <h3 class="whitefnt">Social</h3>
-          <div>
-            <ul class='list-inline'>
-              <li>
-                <a class="lato fsze" href="https://www.linkedin.com/in/andy-poon" target="blank">
-                  <i class="fab fa-linkedin fa-lg"></i>
-                </a>
-              </li>
-              <li>
-                <a class="lato fsze" href="https://github.com/anpoon430" target="blank">
-                  <i class="fab fa-github fa-lg" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
+      </section>
+      <section class="section--skills" id = "skills">
+        <h2>SKILLS</h2>
+        <div class="section--container">
+          <div class="section--skills-grid">
+            <figure class="section--skills-icon">
+              <i class="devicon-javascript-plain colored"></i>
+              <figcaption>JavaScript (ES6)</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <i class="devicon-html5-plain colored"></i>
+              <figcaption>HTML</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <i class="devicon-css3-plain colored"></i>
+              <figcaption>CSS</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <i class="devicon-react-original colored"></i>
+              <figcaption>React</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <img src="./images/redux.png" alt="Redux" />
+              <figcaption>Redux</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <i class="devicon-postgresql-plain colored"></i>
+              <figcaption>Postgres</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <i class="devicon-nodejs-plain colored"></i>
+              <figcaption>Node.js</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <i class="devicon-express-original colored"></i>
+              <figcaption>Express</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <i class="devicon-sequelize-plain colored"></i>
+              <figcaption>Sequelize</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <i class="devicon-git-plain colored"></i>
+              <figcaption>Git</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <i class="devicon-heroku-plain colored"></i>
+              <figcaption>Heroku</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <img src="./images/firebase.png" alt="firebase" />
+              <figcaption>Firebase</figcaption>
+            </figure>
+            <figure class="section--skills-icon">
+              <img src="./images/googlemaps.png" alt="google maps" />
+              <figcaption>Google Maps API</figcaption>
+            </figure>
           </div>
         </div>
-        <div class="col-xs-0 col-md-2"></div>
-      </div>
-
-        <div class="bkgd3 container-custom2 row">
-          <p class="whitefnt text-center lato">© Andy Poon</p>
+        <h3 id="skills">Learning</h3>
+        <div class="section--container">
+        	    <div class="section--skills-grid">
+        	        <figure class="section--skills-icon">
+        	            <img src="./images/ethereum.png" alt="Ethereum" />
+        	            <figcaption>Ethereum</figcaption>
+        	          </figure>
+        	    </div>
         </div>
-      </div>
-    </footer>
-</body>
+      </section>
 
+      <section class="section--projects" id = "projects">
+        <h2>PROJECTS</h2>
+        <div class="section--container">
+          <div class="section--projects-grid">
+            <div class="section--projects-item">
+              <h3 class="section--projects-title">Find food trucks in SF</h3>
+
+              <img src="./images/foodtrucks.png" alt="foodtrucks" />
+
+              <figcaption>
+                Find food trucks by types of food and proximity.
+                <div class="figcaption--subtitle-techlist">
+                  Technologies used:
+                  <strong
+                    >Google Maps, React, Redux, Node.js and Express.</strong
+                  >
+                </div>
+              </figcaption>
+              <div class="section--projects-buttons">
+                <a
+                  href="https://food-trucks-sf-uber-challenge.herokuapp.com"
+                  target="blank"
+                  ><button><i class="fas fa-search"></i> View</button></a
+                >
+                <a
+                  href="https://github.com/anpoon430/uber-challenge-foodtrucks"
+                  target="blank"
+                  ><button><i class="fas fa-code"></i> Code</button></a
+                >
+              </div>
+            </div>
+            <div class="section--projects-item">
+              <h3 class="section--projects-title">
+                Herd - location sharing for tours
+              </h3>
+              <img
+                src="./images/herd.png"
+                alt="herd-location sharing for tours"
+              />
+              <figcaption>
+                Location and information sharing progressive web app for tour
+                groups. Create tour groups, make an announcement, share spots to
+                your group and view location history.
+                <div class="figcaption--subtitle-techlist">
+                  Technologies used:
+                  <strong
+                    >React, Redux, Express, Firebase, Heroku, Google Maps API,
+                    Material-UI, Geolocation API</strong
+                  >
+                </div>
+              </figcaption>
+              <a href="https:herd-tour.com"
+                ><button><i class="fas fa-search"></i> View</button></a
+              >
+              <a href="https://github.com/herd-1807-capstone/herd"
+                ><button><i class="fas fa-code"></i> Code</button></a
+              >
+            </div>
+            <div class="section--projects-item">
+              <h3 class="section--projects-title">
+                Reach - real-time trip timer
+              </h3>
+              <img
+                src="./images/triptimer.png"
+                alt="Reach-real-time trip timer"
+              />
+              <figcaption>
+                A web app that lets you enter points of interests and show you
+                in real time which points you can still reach when you have a
+                limited amount of time.
+
+                <div class="figcaption--subtitle-techlist">
+                  Technologies used:
+                  <strong
+                    >React, Redux, Firebase hosting, Google Maps API,
+                    Material-UI, Web Geolocation API</strong
+                  >
+                </div>
+              </figcaption>
+              <a
+                href="https://stackathon-trip-planner.firebaseapp.com"
+                target="blank"
+                ><button><i class="fas fa-search"></i> View</button></a
+              >
+              <a
+                href="https://github.com/anpoon430/Reach-stackathon-trip-planner"
+                target="blank"
+                ><button><i class="fas fa-code"></i> Code</button></a
+              >
+            </div>
+            <div class="section--projects-item">
+              <h3 class="section--projects-title">
+                Brainjuice - eCommerce web app
+              </h3>
+              <img
+                src="./images/brainjuice.png"
+                alt="Reach-real-time trip timer"
+              />
+              <figcaption>
+                Users and guests can save items to a persistent cart via the
+                localStorage API then checkout their items.
+
+                <div class="figcaption--subtitle-techlist">
+                  Technologies used:
+                  <strong
+                    >React, Redux, Express, Sequelize, PostgreSQL,
+                    Heroku</strong
+                  >
+                </div>
+              </figcaption>
+              <a href="https://brain-juice.herokuapp.com" target="blank"
+                ><button><i class="fas fa-search"></i> View</button></a
+              >
+              <a
+                href="https://github.com/FSA-1807-BRAINJUICE/grace-shopper"
+                target="blank"
+                ><button><i class="fas fa-code"></i> Code</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <h2>CONTACT</h2>
+      <h3>
+        Email: <a href="mailto:anpoon430@gmail.com">anpoon430@gmail.com</a>
+      </h3>
+      <ul class="list--inline">
+        <li>
+          <a
+            style="font-size: 36px; color: var(--lightgrey);"
+            href="https://linkedin.com/in/andy-poon"
+            target="blank"
+          >
+            <i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            style="font-size: 36px; color: var(--lightgrey);"
+            href="https://github.com/anpoon430"
+            target="blank"
+          >
+            <i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+      <p>ⓒ Andy Poon</p>
+    </footer>
+  </body>
 </html>
