@@ -6,9 +6,13 @@
 }
 a{
 	text-decoration: none;
-	color:var(--darkgrey);
 	border-bottom: transparent solid 2px;
 }
+
+nav ul li a{
+	color:var(--darkgrey);
+}
+
 a:hover{
 	color: var(--accent);
 	border-bottom: solid 2px var(--accent);
@@ -46,7 +50,8 @@ header{
 }
 
 nav{
-	height: 5vh;
+	position: relative;
+	height: 10vh;
 	background-color: var(--base);
   top:0;
   width: 100%;
@@ -57,9 +62,16 @@ nav{
 	color: white;
 }
 
-
+cite{
+	position: absolute;
+	top: 97%;
+	right: 10%;
+	font-size: 10px;
+	color: var(--darkgrey);
+}
 
 nav ul {
+	margin-top: 4vh;
   padding:0;
   list-style: none;
   display:flex;
@@ -72,3 +84,154 @@ nav li {
   justify-content: center;
   align-items: center;
 }
+.section--about{
+	text-align: center;
+	padding: 42px;
+	background-color: var(--lightgrey);
+}
+#about h2{
+	color:var(--darkgrey);
+	margin-bottom: 42px;
+}
+
+#skills h2{
+	color:var(--darkgrey);
+	margin-bottom: 42px;
+}
+
+.section--about-content{
+	max-width: 460px;
+	color: var(--darkgrey);
+	text-align: justify;
+	font-size: 20px;
+}
+
+.section--skills{
+	background-color: white;
+	text-align: center;
+	padding:42px;
+}
+
+.section--skills-grid{
+	display:flex;
+	max-width: 460px;
+	flex-wrap: wrap;
+	padding: 5px;
+	justify-content: center;
+}
+
+.section--skills-icon{
+	width: 45px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+}
+
+.section--skills-icon >img{
+	width:40px;
+	margin-bottom: 5px;
+}
+
+.section--skills-icon > i {
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+
+.section--projects-grid{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 460px;
+}
+
+.section--projects{
+	background-color: var(--base);
+	text-align: center;
+	padding:42px;
+}
+
+#projects h2{
+	color: var(--darkgrey);
+	margin-bottom: 42px;
+}
+
+#contact{
+	background-color: var(--darkgrey);
+	text-align: center;
+	padding:42px;
+	color: var(--lightgrey);
+}
+#contact > h3 > a{
+	color: var(--lightgrey);
+}
+
+button{
+	border:none;
+	background-color: var(--accent);
+	color: var(--darkgrey);
+	padding: 5px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.section--projects-title{
+	margin-bottom: 21px;
+	color: var(--darkgrey);
+}
+.section--projects-item > figcaption {
+	color:var(--darkgrey);
+	margin: 20px 0;
+	text-align: justify;
+}
+
+.section--container{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 5px;
+}
+
+.section--projects-item{
+	margin: 10px;
+}
+
+.section--projects-buttons{
+	margin: 10px;
+	padding: 5px;
+}
+
+.figcaption--subtitle-techlist{
+	margin-top: 20px;
+}
+
+#contact > h2{
+	color: var(--lightgrey);
+	margin-bottom: 42px;
+}
+.list--inline{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list--inline li {
+	display: inline;
+}
+
+#contact li{
+	color: var(--lightgrey);
+	margin: 5px;
+}
+
+#contact p {
+	margin-top: 15px;
+}
+
+.section--projects-item img{
+	max-height: 50vh;
+}
+/* nav.active{
+	transform: translateY(0);
+	top: 10vh;
+} */
