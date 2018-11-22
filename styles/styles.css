@@ -32,46 +32,39 @@ img{
 	height: auto;
 	max-width: 100%;
 }
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background:url(../images/landing_background.svg) bottom no-repeat #cbeaed;
+	-webkit-background-size: auto 70vh;
+	-moz-background-size: auto 70vh;
+	-o-background-size: auto 70vh;
+	background-size: auto 70vh;
+	background-attachment: inherit;
+	height: 100vh;
+	width: auto;
+	color: var(--accent);
+}
+
 @media only screen and (min-width: 770px){
 	header{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+
+		color: var(--accent);
+		background:url(../images/landing_background.svg) bottom no-repeat fixed #cbeaed;
 		-webkit-background-size: auto 70vh;
 		-moz-background-size: auto 70vh;
 		-o-background-size: auto 70vh;
 		background-size: auto 70vh;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-			background-size: cover;
-		color: var(--accent);
-		background:url(../images/landing_background.svg) bottom no-repeat fixed #cbeaed;
 		height: 100vh;
 		width: auto;
 	}
 }
-header{
-	display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		-webkit-background-size: auto 70vh;
-	-moz-background-size: auto 70vh;
-	-o-background-size: auto 70vh;
-	background-size: auto 70vh;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-		background-size: cover;
-		background:url(../images/landing_background.svg) bottom no-repeat #cbeaed;
-		background-attachment: inherit;
-		height: 100vh;
-		width: auto;
-		color: var(--accent);
-}
-
 
 .header--subtitle-centered{
 	margin-bottom: 40vh;
