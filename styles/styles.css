@@ -200,7 +200,7 @@ nav li {
 	margin-bottom: 21px;
 	color: var(--darkgrey);
 }
-.section--projects-item > figcaption {
+.section--projects-item figcaption {
 	color:var(--darkgrey);
 	margin: 20px 0;
 	text-align: justify;
