@@ -187,7 +187,7 @@ nav li {
 	color: var(--lightgrey);
 }
 
-button{
+.section--projects-buttons span{
 	border:none;
 	background-color: var(--accent);
 	color: var(--darkgrey);
